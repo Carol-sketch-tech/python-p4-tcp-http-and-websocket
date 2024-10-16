@@ -1,0 +1,29 @@
+all internet communication relies on the internet protocl and transmission control protocl 
+IP indicates how messages are senf between networks on the internet.
+it is upheld by nealry all internet based applications 
+
+
+TCP 
+where ip is focused on messaged TCP is fcused on connections.
+it is a stateful protocol meaning that id remembers previous transactions for the durarion of the connetion.
+
+TCP takes a message an breaks into smaller pieces called packets.
+each packet contains a part of your message and some addtional information.
+
+TCP adds some speial information to each packet it inlcudes the adress of hte sender and the adress of the reciever.
+
+TCP also numbers each packet in order.
+it is like labelling the packets with numbers startigin from one so your frined
+can put them back together correclty 
+TCP takes part in the transport layer of hte networing stack 
+
+when the receiver computer gts the packets TCP comes into action again 
+it check if any packets are mission or got damaged during the journey 
+if that happends TCP asks the sernder to send thise mission or damages packets again
+this sensures that the reciever get all the packets 
+
+TCP is concidered stateful
+because it establishes a connection, keepts track ifthe ongoig commuinication unitl the conversation is complete.
+this statefulness allows for efficient and error-free data transission over the internet 
+
+
